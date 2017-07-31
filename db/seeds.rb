@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+post1 = Post.create({content: 'This just in!  Rails is so much fun!!!', is_published: true})
+
+post2 = Post.create({content: 'Here all about it!  I want ice cream!', is_published: true})
